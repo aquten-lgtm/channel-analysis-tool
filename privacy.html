@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="チャンネル分析収集ツールの取得情報、アクセス権限、保存期間、アクセス取消とデータ削除について。">
+  <title>プライバシーポリシー | チャンネル分析収集ツール</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">本文へ</a>
+  <header class="site-header"><div class="wrap"><a class="brand" href="./">チャンネル分析収集ツール</a><nav aria-label="メインナビゲーション"><a href="./">概要</a><a href="privacy.html" aria-current="page">プライバシー</a></nav></div></header>
+  <main id="main" class="wrap policy">
+    <div class="policy-title"><p class="eyebrow">チャンネル分析収集ツール</p><h1>プライバシーポリシー</h1><p class="muted">最終更新日：2026年10月3日</p></div>
+    <section><h2>1. 利用目的と取得情報</h2><p>本ツールは YouTube API Services を利用し、運用者本人のチャンネル分析のため、チャンネル・動画の基本情報と集計された分析データを取得します。</p><p>対象には ID、名称、動画タイトル、公開日時、長さ、公開状態、再生数、視聴時間、平均視聴時間・平均再生率、登録者の増減、流入元、取得可能なインプレッション・クリック率が含まれます。</p></section>
+    <section><h2>2. アクセス権限</h2><p>使用する権限は <span class="scope">youtube.readonly</span> と <span class="scope">yt-analytics.readonly</span> です。動画の投稿・編集・削除や収益情報の取得は行いません。Google アカウントのパスワードは収集しません。</p></section>
+    <section><h2>3. 処理と保存先</h2><p>Google の認証・API サービスと GitHub Actions を利用します。取得データは、設定された非公開 GitHub リポジトリの Actions 成果物に CSV、SQLite、ZIP 等で保存します。閲覧範囲は GitHub 側のアクセス権に従います。広告サービスや外部 AI API への送信処理はありません。</p><p>更新トークン等の認証情報は GitHub Actions Secrets で管理する構成です。認証情報を分析成果物へ含めないよう設計しています。</p></section>
+    <section><h2>4. 保存期間</h2><p>Actions 成果物の保持期間は 14 日に設定しています。次回収集時には、一時作業用の履歴から 14 日以上前の取得記録を除外します。過去の成果物にも履歴が含まれるため、同じ取得データが約 28 日間残る場合があります。</p><p>ダウンロードしたコピーは別途管理が必要です。利用停止・連携解除時には、次項の削除期限を優先します。</p></section>
+    <section><h2>5. アクセス取消とデータ削除</h2><p>アクセス許可は <a href="https://myaccount.google.com/connections">Google アカウントの接続管理</a>から取り消せます。取り消しても、保存済みの成果物は直ちに自動削除されません。</p><p>本ツールは運用者本人専用です。利用をやめる、または Google の連携を解除するときは、運用者が収集を停止し、GitHub Actions の全収集成果物、保存済み履歴、管理下の手元のコピーを、利用停止または連携解除から 7 日以内に手動で削除します。</p><p>保存データの削除については、下記の問い合わせ先へご連絡ください。本ツール側のデータを削除しても、YouTube 上の動画やデータは削除されません。</p></section>
+    <section><h2>6. この説明サイトへのアクセス</h2><p>この説明サイトは GitHub Pages で配信しています。GitHub はセキュリティ目的で訪問者の IP アドレスを記録します。詳細は <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages">GitHub Pages の説明</a>と<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub のプライバシーに関する声明</a>をご確認ください。</p><p>このサイト自体には、アクセス解析・広告・Cookie を設定するスクリプトや、入力フォームを設置していません。</p></section>
+    <section><h2>7. 問い合わせと関連ポリシー</h2><p>お問い合わせ：<a href="mailto:aquavittenmo@gmail.com">aquavittenmo@gmail.com</a></p><p>Google による情報の取り扱いは、<a href="https://policies.google.com/privacy">Google プライバシーポリシー</a>をご確認ください。</p></section>
+  </main>
+  <footer class="site-footer"><div class="wrap"><a href="./">チャンネル分析収集ツールの概要へ</a><a href="privacy.html" aria-current="page">プライバシーポリシー</a></div></footer>
+</body>
+</html>

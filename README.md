@@ -1,2 +1,10 @@
-# channel-analysis-tool
-Public information and privacy policy for a personal, read-only channel analysis tool.
+# チャンネル分析収集ツール — 公開説明ページ
+
+本人専用の読み取り専用ツールについての説明とプライバシーポリシーです。
+
+- `index.html`: ツールの概要
+- `privacy.html`: プライバシーポリシー
+- `styles.css`: 共通スタイル
+
+このリポジトリには、収集プログラム、分析データ、認証情報を保存しません。
+一般利用者の登録は受け付けていません。
